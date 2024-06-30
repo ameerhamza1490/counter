@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;
+
+}
+
+#demo {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+#btn {
+    font-size: 30px;
+    padding: 30px 60px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: scale(1.1);
+}
